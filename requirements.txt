@@ -1,0 +1,22 @@
+# Step 2: QLoRA Fine-Tuning Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Note: bitsandbytes requires a CUDA-capable GPU.
+# For CPU-only testing, comment out bitsandbytes and set QUANTIZATIONS=["none"] in experiment_config.py
+
+torch>=2.1.0
+transformers>=4.40.0
+peft>=0.10.0
+bitsandbytes>=0.43.0
+accelerate>=0.27.0
+datasets>=2.18.0
+trl>=0.8.0
+scipy>=1.11.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+huggingface_hub>=0.22.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
