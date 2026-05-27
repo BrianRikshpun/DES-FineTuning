@@ -34,7 +34,7 @@ SIM_MODULES = [
     "movie_renege",
 ]
 
-N_SEEDS_OVERRIDE = {"machine_shop": 5}
+N_SEEDS_OVERRIDE = {}  # all models use N_SEEDS (10)
 
 
 def load_module(name):
